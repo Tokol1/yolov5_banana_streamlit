@@ -1,1 +1,5 @@
 streamlit
+torch
+cv2
+numpy
+PIL
