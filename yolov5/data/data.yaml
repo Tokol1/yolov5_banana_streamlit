@@ -1,0 +1,5 @@
+train: data/train/images
+val: data/vaild/images
+
+nc: 1
+names: [ 'banana' ]
