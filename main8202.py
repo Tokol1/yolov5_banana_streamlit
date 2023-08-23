@@ -9,7 +9,7 @@ import numpy as np
 from PIL import Image
 
 # YOLOv5モデルの読み込み(Load My learned YOLOv5 model)
-model = torch.hub.load("yolov5", 'custom', path='C:\\Users\\81801\\OneDrive\\ドキュメント\\GitHub\\yolov5_banana_streamlit\\best1.pt',source='local')
+model = torch.hub.load("yolov5", 'custom', path='yolov5_banana_streamlit\\best1.pt',source='local')
 
 # Streamlitアプリ名(Streamlit app name)
 st.title("YOLOv5 Object Detection with Streamlitああ")
